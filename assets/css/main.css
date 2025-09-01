@@ -85,7 +85,7 @@ input, select, textarea {
 	body {
 		background: #ffffff;
 		color: #2c5f5f;
-		font-size: 15pt;
+		font-size: 13pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
@@ -103,7 +103,7 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-size: 15pt;
+		font-size: 13pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
@@ -2703,8 +2703,13 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 13pt;
 				line-height: 1.75em;
+			}
+
+			.wrapper {
+				padding-left: 0em;
+				padding-right: 0em;
 			}
 
 		/* Carousel */
