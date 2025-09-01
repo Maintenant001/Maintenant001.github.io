@@ -347,6 +347,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			
 		}
 
 		.row > .off-4 {
@@ -1801,7 +1802,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 4em 0;
-			text-align: justify;
+			text-align: center;
 		}
 
 		.image.left {
@@ -1817,6 +1818,7 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
+				display: inline-block;
 			}
 
 /* List */
