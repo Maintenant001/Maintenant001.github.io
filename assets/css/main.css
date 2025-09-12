@@ -2210,13 +2210,16 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: linear-gradient(135deg, rgba(26, 153, 153, 0.0), rgba(38, 204, 204, 0.0)), url("../../images/header.jpg");
-		background-size: cover;
-		background-position: center center;
+		background: linear-gradient(135deg, rgba(26, 153, 153, 0.0), rgba(38, 204, 204, 0.0)), url("../../images/header2.jpg");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-color: #007A7F;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
+		height: 250px;
 		cursor: default;
 	}
 
@@ -2571,6 +2574,17 @@ input, select, textarea {
 					color: #d4af37;
 				}
 
+
+	#header {
+				background-attachment: scroll;
+				height: 250px;
+			}
+
+				#header .inner {
+					padding-left: 2em;
+					padding-right: 2em;
+				}			
+
 /* Carousel */
 
 	.carousel {
@@ -2712,6 +2726,16 @@ input, select, textarea {
 				padding-right: 0em;
 			}
 
+			#header {
+				background-attachment: scroll;
+				height: 250px;
+			}
+
+				#header .inner {
+					padding-left: 2em;
+					padding-right: 2em;
+				}
+
 		/* Carousel */
 
 			.carousel {
@@ -2751,6 +2775,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
+				height: 250px;
 			}
 
 				#header .inner {
@@ -3136,6 +3161,7 @@ input, select, textarea {
 			#header {
 				background-attachment: scroll;
 				padding: 2.5em 0 0 0;
+				height: 200px;
 			}
 
 				#header .inner {
