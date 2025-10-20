@@ -2576,6 +2576,17 @@ input, select, textarea {
 					color: #d4af37;
 				}
 
+
+	#header {
+				background-attachment: scroll;
+				height: 250px;
+			}
+
+				#header .inner {
+					padding-left: 2em;
+					padding-right: 2em;
+				}			
+
 /* Carousel */
 
 	.carousel {
@@ -2807,6 +2818,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
+				height: 250px;
 			}
 
 				#header .inner {
@@ -3192,6 +3204,7 @@ input, select, textarea {
 			#header {
 				background-attachment: scroll;
 				padding: 2.5em 0 0 0;
+				height: 200px;
 			}
 
 				#header .inner {
